@@ -1,1 +1,42 @@
-<p>home works!</p>
+<div class="container">
+  <h1>Névsorsoló</h1>
+
+  <div class="card">
+    <div class="row">
+      <input
+        type="text"
+        [(ngModel)]="newName"
+        placeholder="Írj be egy nevet..."
+        (keyup.enter)="add()"
+      />
+      <button (click)="add()">Hozzáadás</button>
+    </div>
+
+    <div class="error" *ngIf="error">{{ error }}</div>
+
+    <div class="row actions">
+      <button (click)="draw()" [disabled]="names.length === 0">Sorsolás</button>
+      <button (click)="clear()" [disabled]="names.length === 0">Összes törlése</button>
+    </div>
+  </div>
+
+  <div class="card" *ngIf="picked">
+    <h2>Kisorsolt név</h2>
+    <div class="picked">{{ picked.value }}</div>
+  </div>
+
+  <div class="card">
+    <h2>Nevek ({{ names.length }})</h2>
+
+    <ul class="list" *ngIf="names.length > 0; else empty">
+      <li *ngFor="let n of names">
+        <span class="name">{{ n.value }}</span>
+        <button class="danger" (click)="remove(n.id)">Törlés</button>
+      </li>
+    </ul>
+
+    <ng-template #empty>
+      <div class="muted">Még nincs felvitt név.</div>
+    </ng-template>
+  </div>
+</div>
