@@ -27,7 +27,6 @@ export class HomeComponent {
       error: () => this.error = 'Nem sikerült betölteni a neveket.'
     });
   }
-
   add(): void {
     this.error = null;
     this.facade.add(this.newName).subscribe({
@@ -38,19 +37,10 @@ export class HomeComponent {
       error: (e) => this.error = e?.message ?? 'Hiba történt.'
     });
   }
-
   remove(id: number): void {
     this.facade.remove(id).subscribe(() => this.load());
   }
-
   draw(): void {
     this.facade.random().subscribe(x => this.picked = x);
-  }
-
-  clear(): void {
-    this.facade.clear().subscribe(() => {
-      this.picked = null;
-      this.load();
-    });
   }
 }

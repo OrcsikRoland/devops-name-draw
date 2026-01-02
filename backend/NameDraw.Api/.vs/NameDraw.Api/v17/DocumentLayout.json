@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "NameDraw.Api\\Repositories\\INameRepository.cs",
               "ToolTip": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Repositories\\INameRepository.cs",
               "RelativeToolTip": "NameDraw.Api\\Repositories\\INameRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-31T00:14:53.906Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "NameDraw.Api\\Repositories\\EfNameRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T00:13:50.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T00:13:50.49Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "NameDraw.Api\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T00:12:40.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T00:12:40.683Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "NameDraw.Api\\Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAxwBUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T00:03:08.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T00:03:08.664Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "NameDraw.Api\\Controllers\\NamesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T00:02:30.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T00:02:30.267Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "NameDraw.Api\\Services\\NameService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T23:56:40.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T23:56:40.19Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "NameDraw.Api\\Services\\INameService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T23:53:13.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T23:53:13.781Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "NameDraw.Api\\Dtos\\CreateNameRequestDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T23:51:09.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T23:51:09.018Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "NameDraw.Api\\Dtos\\NameDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T23:50:45.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T23:50:45.824Z"
             }
           ]
         }
