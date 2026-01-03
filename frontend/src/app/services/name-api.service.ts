@@ -12,19 +12,32 @@ export class NameApiService {
 
     constructor(private http: HttpClient, private configService: ConfigService) {}
 
-    getAll(): Observable<NameItem[]> {
-      return this.http.get<NameItem[]>(this.configService.cfg.backendUrl);
-    }
+      /** GET /api/Names */
+  getAll(): Observable<NameItem[]> {
+    return this.http.get<NameItem[]>(
+      `${this.configService.cfg.backendUrl}/api/Names`
+    );
+  }
 
-    add(value: string): Observable<void> {
-      return this.http.post<void>(this.configService.cfg.backendUrl, { value });
-    }
+  /** POST /api/Names */
+  add(value: string): Observable<void> {
+    return this.http.post<void>(
+      `${this.configService.cfg.backendUrl}/api/Names`,
+      { value }
+    );
+  }
 
-    remove(id: number): Observable<void> {
-      return this.http.delete<void>(`${this.configService.cfg.backendUrl}/${id}`);
-    }
+  /** DELETE /api/Names/{id} */
+  remove(id: number): Observable<void> {
+    return this.http.delete<void>(
+      `${this.configService.cfg.backendUrl}/api/Names/${id}`
+    );
+  }
 
-    random(): Observable<NameItem> {
-      return this.http.get<NameItem>(`${this.configService.cfg.backendUrl}/random`);
+  /** GET /api/Names/random */
+  random(): Observable<NameItem> {
+    return this.http.get<NameItem>(
+      `${this.configService.cfg.backendUrl}/api/Names/random`
+    );
   }
 }
