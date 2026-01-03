@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "NameDraw.Api.Controllers.NamesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Names",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[NameDraw.Api.Dtos.NameDto, NameDraw.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NameDraw.Api.Controllers.NamesController",
+    "Method": "Add",
+    "RelativePath": "api/Names",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "NameDraw.Api.Dtos.CreateNameRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NameDraw.Api.Controllers.NamesController",
+    "Method": "Delete",
+    "RelativePath": "api/Names/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NameDraw.Api.Controllers.NamesController",
+    "Method": "Random",
+    "RelativePath": "api/Names/random",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "NameDraw.Api.Dtos.NameDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
