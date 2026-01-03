@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +70,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "NameDraw.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\appsettings.json",
+              "RelativeToolTip": "NameDraw.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-03T12:44:18.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "NameItem.cs",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Entities\\NameItem.cs",
               "RelativeDocumentMoniker": "NameDraw.Api\\Entities\\NameItem.cs",
@@ -78,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "INameRepository.cs",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Repositories\\INameRepository.cs",
               "RelativeDocumentMoniker": "NameDraw.Api\\Repositories\\INameRepository.cs",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EfNameRepository.cs",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Repositories\\EfNameRepository.cs",
               "RelativeDocumentMoniker": "NameDraw.Api\\Repositories\\EfNameRepository.cs",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "NameService.cs",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Services\\NameService.cs",
               "RelativeDocumentMoniker": "NameDraw.Api\\Services\\NameService.cs",
@@ -110,12 +127,11 @@
               "RelativeToolTip": "NameDraw.Api\\Services\\NameService.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowCoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T23:56:40.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-30T23:56:40.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "20260102123045_AddSessionId.cs",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Migrations\\20260102123045_AddSessionId.cs",
               "RelativeDocumentMoniker": "NameDraw.Api\\Migrations\\20260102123045_AddSessionId.cs",
@@ -127,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "NameDraw.Api\\Data\\AppDbContext.cs",
@@ -139,20 +155,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Program.cs",
               "RelativeDocumentMoniker": "NameDraw.Api\\Program.cs",
               "ToolTip": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Program.cs",
               "RelativeToolTip": "NameDraw.Api\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCYAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCcAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-31T00:03:08.664Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "NamesController.cs",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Controllers\\NamesController.cs",
               "RelativeDocumentMoniker": "NameDraw.Api\\Controllers\\NamesController.cs",
@@ -164,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "INameService.cs",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Services\\INameService.cs",
               "RelativeDocumentMoniker": "NameDraw.Api\\Services\\INameService.cs",
@@ -176,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CreateNameRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Dtos\\CreateNameRequestDto.cs",
               "RelativeDocumentMoniker": "NameDraw.Api\\Dtos\\CreateNameRequestDto.cs",
@@ -188,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "NameDto.cs",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Dtos\\NameDto.cs",
               "RelativeDocumentMoniker": "NameDraw.Api\\Dtos\\NameDto.cs",
