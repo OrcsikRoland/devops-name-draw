@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NameDraw.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba52eae90d2dae4effd196b913ca282afc8dc7ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce287a290f8817cd4392db21782845518881f4e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("NameDraw.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NameDraw.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

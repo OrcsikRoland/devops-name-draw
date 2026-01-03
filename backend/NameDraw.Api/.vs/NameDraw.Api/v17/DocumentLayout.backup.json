@@ -74,9 +74,9 @@
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\appsettings.json",
               "RelativeDocumentMoniker": "NameDraw.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\appsettings.json",
-              "RelativeToolTip": "NameDraw.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\appsettings.json*",
+              "RelativeToolTip": "NameDraw.Api\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-01-03T12:44:18.041Z",
               "EditorCaption": ""
@@ -161,10 +161,9 @@
               "RelativeDocumentMoniker": "NameDraw.Api\\Program.cs",
               "ToolTip": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\NameDraw.Api\\Program.cs",
               "RelativeToolTip": "NameDraw.Api\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCcAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T00:03:08.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T00:03:08.664Z"
             },
             {
               "$type": "Document",
