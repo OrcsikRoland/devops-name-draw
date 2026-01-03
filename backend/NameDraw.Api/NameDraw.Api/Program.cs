@@ -3,11 +3,35 @@ using Microsoft.EntityFrameworkCore;
 using NameDraw.Api.Data;
 using NameDraw.Api.Repositories;
 using NameDraw.Api.Services;
+using System.Security.Cryptography;
 
 namespace NameDraw.Api
 {
     public class Program
     {
+        public static string GetOrCreateSessionId(HttpContext ctx)
+        {
+            const string cookieName = "nd.sid";
+
+            if (ctx.Request.Cookies.TryGetValue(cookieName, out var sid)
+                && !string.IsNullOrWhiteSpace(sid))
+            {
+                return sid;
+            }
+
+            var bytes = RandomNumberGenerator.GetBytes(16);
+            sid = Convert.ToHexString(bytes);
+
+            ctx.Response.Cookies.Append(cookieName, sid, new CookieOptions
+            {
+                HttpOnly = true,
+                SameSite = SameSiteMode.Lax,
+                Secure = ctx.Request.IsHttps,
+                IsEssential = true
+            });
+
+            return sid;
+        }
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
@@ -23,9 +47,18 @@ namespace NameDraw.Api
                      .AllowAnyMethod());
             });
             builder.Services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer(
-                "Server=(localdb)\\MSSQLLocalDB;Database=NameDrawDb;Trusted_Connection=True;"
-            ));
+            {
+                options.UseSqlServer(builder.Configuration["db:conn"]);
+            });
+
+            if (builder.Environment.IsProduction())
+            {
+                builder.WebHost.ConfigureKestrel(options =>
+                {
+                    options.ListenAnyIP(int.Parse(builder.Configuration["settings:port"] ?? "6500"));
+                });
+
+            }
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

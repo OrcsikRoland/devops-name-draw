@@ -20,6 +20,7 @@ namespace NameDraw.Api.Data
                     .HasMaxLength(50);
                 e.Property(x => x.CreatedAt)
                     .IsRequired();
+                e.Property(x => x.SessionId).IsRequired().HasMaxLength(64);
             });
         }
     }
