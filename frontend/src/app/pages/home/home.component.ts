@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NameItem } from '../../models/name-item';
-import { NameService } from '../../services/name.service';
+
 import { NameFacadeService } from '../../services/name-facade.service';
 
 @Component({
