@@ -12,9 +12,9 @@ namespace NameDraw.Api.Services
             _repo = repo;
         }
 
-        public async Task<List<NameDto>> GetAllAsync(string sessionId)
+        public async Task<List<NameDto>> GetAllAsync()
         {
-            var items = await _repo.GetAllAsync(sessionId);
+            var items = await _repo.GetAllAsync();
             return items.Select(x => new NameDto
             {
                 Id = x.Id,
@@ -23,7 +23,7 @@ namespace NameDraw.Api.Services
             }).ToList();
         }
 
-        public async Task AddAsync(string sessionId, string value)
+        public async Task AddAsync(string value)
         {
             var v = value?.Trim();
             if (string.IsNullOrWhiteSpace(v))
@@ -31,15 +31,15 @@ namespace NameDraw.Api.Services
             if (v.Length > 50)
                 throw new ArgumentException("Max 50 karakter lehet.");
 
-            await _repo.AddAsync(sessionId, v);
+            await _repo.AddAsync(v);
         }
 
-        public Task DeleteAsync(string sessionId, int id)
-            => _repo.DeleteAsync(sessionId, id);
+        public Task DeleteAsync(int id)
+            => _repo.DeleteAsync(id);
 
-        public async Task<NameDto?> GetRandomAsync(string sessionId)
+        public async Task<NameDto?> GetRandomAsync()
         {
-            var item = await _repo.GetRandomAsync(sessionId);
+            var item = await _repo.GetRandomAsync();
             if (item is null) return null;
 
             return new NameDto
@@ -49,8 +49,5 @@ namespace NameDraw.Api.Services
                 CreatedAt = item.CreatedAt
             };
         }
-
-        public Task ClearAsync(string sessionId)
-            => _repo.ClearAsync(sessionId);
     }
 }
