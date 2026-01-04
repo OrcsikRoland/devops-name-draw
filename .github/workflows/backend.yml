@@ -19,7 +19,7 @@ jobs:
       REMOTE_BASE: /var/backend                   # gyökér a deployed appnak
       REMOTE_RELEASES: /var/backend/releases      # ide mennek a verziók
       REMOTE_CURRENT: /var/backend/current        # symlink az aktuális release-re
-      SERVICE_NAME: manedraw
+      SERVICE_NAME: namedraw
       FRONTEND_URL: https://namedraw.hu
       SSH_HOST: namedraw.hu
       SSH_USER: root
