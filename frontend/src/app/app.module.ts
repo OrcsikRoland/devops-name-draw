@@ -18,12 +18,15 @@ import { ConfigService } from './config.service';
     FormsModule,
     HttpClientModule
   ],
-  providers: [provideHttpClient(), {
-    provide: APP_INITIALIZER,
-    useFactory: (cfg: ConfigService) => () => cfg.load(),
-    deps: [ConfigService],
-    multi: true
-  }],
+  providers: [
+  provideHttpClient(),
+  {
+     provide: APP_INITIALIZER,
+  useFactory: (cfg: ConfigService) => () => cfg.load(),
+  deps: [ConfigService],
+  multi: true
+  }
+],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

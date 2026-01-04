@@ -1,9 +1,8 @@
 import { Injectable } from '@angular/core';
-import { NameService } from './name.service';
-import { NameApiService } from './name-api.service';
+
 import { Observable, of, throwError } from 'rxjs';
 import { NameItem } from '../models/name-item';
-import { environment } from '../../environments/environment.development';
+import { NameApiService } from './name-api.service';
 
 @Injectable({
   providedIn: 'root'
