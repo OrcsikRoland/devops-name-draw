@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { Observable} from 'rxjs';
+import { Observable, of, throwError } from 'rxjs';
 import { NameItem } from '../models/name-item';
 import { NameApiService } from './name-api.service';
 
