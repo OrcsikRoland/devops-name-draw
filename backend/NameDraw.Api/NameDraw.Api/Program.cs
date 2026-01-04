@@ -9,29 +9,6 @@ namespace NameDraw.Api
 {
     public class Program
     {
-        public static string GetOrCreateSessionId(HttpContext ctx)
-        {
-            const string cookieName = "nd.sid";
-
-            if (ctx.Request.Cookies.TryGetValue(cookieName, out var sid)
-                && !string.IsNullOrWhiteSpace(sid))
-            {
-                return sid;
-            }
-
-            var bytes = RandomNumberGenerator.GetBytes(16);
-            sid = Convert.ToHexString(bytes);
-
-            ctx.Response.Cookies.Append(cookieName, sid, new CookieOptions
-            {
-                HttpOnly = true,
-                SameSite = SameSiteMode.Lax,
-                Secure = ctx.Request.IsHttps,
-                IsEssential = true
-            });
-
-            return sid;
-        }
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);

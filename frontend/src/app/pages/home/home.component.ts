@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NameItem } from '../../models/name-item';
-import { NameService } from '../../services/name.service';
+
 import { NameFacadeService } from '../../services/name-facade.service';
 
 @Component({
@@ -21,20 +21,39 @@ export class HomeComponent {
     this.load();
   }
 
-  load(): void {
+      load(): void {
     this.facade.getAll().subscribe({
-      next: (res) => this.names = res,
-      error: () => this.error = 'Nem sikerült betölteni a neveket.'
+      next: (res) => {
+        this.names = res;
+        this.error = null;
+      },
+      error: (e) => {
+        console.log('LOAD ERROR', e);
+        this.error = e?.error?.message ?? 'Nem sikerült betölteni a neveket.';
+      }
     });
   }
-  add(): void {
+   add(): void {
     this.error = null;
-    this.facade.add(this.newName).subscribe({
+
+    const value = this.newName.trim();
+    if (!value) {
+      this.error = 'Adj meg egy nevet.';
+      return;
+    }
+
+    this.facade.add(value).subscribe({
       next: () => {
         this.newName = '';
         this.load();
       },
-      error: (e) => this.error = e?.message ?? 'Hiba történt.'
+      error: (e) => {
+        console.log('ADD ERROR', e); // ideiglenes debug
+        this.error =
+          e?.error?.message ??
+          e?.message ??
+          'Hiba történt.';
+      }
     });
   }
   remove(id: number): void {

@@ -18,18 +18,15 @@ namespace NameDraw.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<List<NameDto>>> GetAll()
         {
-            var sid = Program.GetOrCreateSessionId(HttpContext);
-            return Ok(await _service.GetAllAsync(sid));
+            return Ok(await _service.GetAllAsync());
         }
 
         [HttpPost]
         public async Task<IActionResult> Add(CreateNameRequestDto req)
         {
-            var sid = Program.GetOrCreateSessionId(HttpContext);
-
             try
             {
-                await _service.AddAsync(sid, req.Value);
+                await _service.AddAsync(req.Value);
                 return Ok();
             }
             catch (ArgumentException ex)
@@ -41,16 +38,14 @@ namespace NameDraw.Api.Controllers
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var sid = Program.GetOrCreateSessionId(HttpContext);
-            await _service.DeleteAsync(sid, id);
+            await _service.DeleteAsync(id);
             return NoContent();
         }
 
         [HttpGet("random")]
         public async Task<ActionResult<NameDto>> Random()
         {
-            var sid = Program.GetOrCreateSessionId(HttpContext);
-            var picked = await _service.GetRandomAsync(sid);
+            var picked = await _service.GetRandomAsync();
             return picked == null ? NoContent() : Ok(picked);
         }
     }
