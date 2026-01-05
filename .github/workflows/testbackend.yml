@@ -104,8 +104,9 @@ jobs:
               sudo jq \
                 --arg conn "${{ secrets.DB_CONN_TEST }}" \
                 --arg frontend "${{ env.FRONTEND_URL }}" \
-                --arg port "${{secrets.DESIRED_PORT}}" \ 
-                '.db.conn = $conn | .settings.frontend = $frontend' \
+                --arg port "${{secrets.DESIRED_PORT}}" \
+                '.db.conn = $conn | .settings.frontend = $frontend' |
+                .settings.port = $port' \
                 "$NEW_RELEASE/appsettings.json" | sudo tee "$NEW_RELEASE/appsettings.json.tmp" > /dev/null
               sudo mv "$NEW_RELEASE/appsettings.json.tmp" "$NEW_RELEASE/appsettings.json"
             else
