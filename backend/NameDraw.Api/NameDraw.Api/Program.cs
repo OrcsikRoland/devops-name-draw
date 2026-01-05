@@ -28,7 +28,14 @@ namespace NameDraw.Api
                 options.UseSqlServer(builder.Configuration["db:conn"]);
             });
 
-            
+            if (builder.Environment.IsProduction())
+            {
+                builder.WebHost.ConfigureKestrel(options =>
+                {
+                    options.ListenAnyIP(int.Parse(builder.Configuration["settings:port"] ?? "6500"));
+                });
+
+            }
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
