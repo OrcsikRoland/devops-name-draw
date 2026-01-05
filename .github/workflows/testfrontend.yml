@@ -56,7 +56,7 @@ jobs:
 
       - name: Pack dist
         run: |
-          tar -C ${{ env.DIST_DIR }} -czf frontend-test-${{ github.sha }}.tar.gz .
+          tar -C ${{ env.DIST_DIR }} -czf frontend-${{ github.sha }}.tar.gz .
 
       - name: Add remote host key
         run: |
