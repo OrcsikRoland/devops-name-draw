@@ -5,7 +5,6 @@ import { HttpClientModule, provideHttpClient } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
-import { ConfigService } from './config.service';
 
 @NgModule({
   declarations: [
@@ -18,15 +17,7 @@ import { ConfigService } from './config.service';
     FormsModule,
     HttpClientModule
   ],
-  providers: [
-  provideHttpClient(),
-  {
-     provide: APP_INITIALIZER,
-  useFactory: (cfg: ConfigService) => () => cfg.load(),
-  deps: [ConfigService],
-  multi: true
-  }
-],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
