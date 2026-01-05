@@ -1,7 +1,56 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Csiga\\Desktop\\devOps\\backend\\NameDraw.Api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\controllers\\namescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\controllers\\namescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\dtos\\namedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\dtos\\namedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\dtos\\createnamerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\dtos\\createnamerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\services\\nameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\services\\nameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\repositories\\efnamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\repositories\\efnamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\services\\inameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\services\\inameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\repositories\\inamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\repositories\\inamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\entities\\nameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\entities\\nameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|c:\\users\\csiga\\desktop\\devops\\backend\\namedraw.api\\namedraw.api\\migrations\\20260102123045_addsessionid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24770C1-CA8E-4F43-838C-2527BEFFFC0C}|NameDraw.Api\\NameDraw.Api.csproj|solutionrelative:namedraw.api\\migrations\\20260102123045_addsessionid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
